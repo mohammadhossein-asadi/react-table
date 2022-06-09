@@ -5,7 +5,7 @@ import { COLUMNS, GROUPED_COLUMNS } from "./columns";
 import "./table.css";
 
 const BasicTable = () => {
-  const columns = useMemo(() => GROUPED_COLUMNS, []);
+  const columns = useMemo(() => COLUMNS, []);
   const data = useMemo(() => MOCK_DATA, []);
 
   const {
