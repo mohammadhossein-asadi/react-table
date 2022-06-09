@@ -4,7 +4,7 @@ import MOCK_DATA from "./MOCK_DATA.json";
 import { COLUMNS, GROUPED_COLUMNS } from "./columns";
 import "./table.css";
 
-const BasicTable = () => {
+const SortingTable = () => {
   const columns = useMemo(() => GROUPED_COLUMNS, []);
   const data = useMemo(() => MOCK_DATA, []);
 
@@ -56,4 +56,4 @@ const BasicTable = () => {
   );
 };
 
-export default BasicTable;
+export default SortingTable;
